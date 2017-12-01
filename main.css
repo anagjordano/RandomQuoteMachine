@@ -1,0 +1,41 @@
+body {
+    background: url(images/man-on-the-top-of-a-mountain.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+h1 {
+    font-family: 'EB Garamond';
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+p {
+    font-family: 'EB Garmond';
+    font-style: italic;
+    font-size: 20px;
+    padding: 12px;    
+}
+
+.container {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.divider {
+    border-bottom: 1px solid black;
+}
+
+.quote-box{
+    margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.493);
+    border-radius: 15px;
+}
+
+
+p#quote {
+    font-size: 27px;
+}
