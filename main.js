@@ -20,9 +20,11 @@ var author;
             success: function(value){
                 quote = value.quoteText;
                 author = value.quoteAuthor;
-                $('#quote').html(quote);
+                $('#quote').hide().fadeIn(1000).html('"'+quote+'"');
                 $('#author').html('- ' + author);
                 
+                $('h3').fadeOut(500).fadeIn(500);
+
                 if(!value.quoteAuthor){
                     $('#author').html('- Anonymous');                    
                 }

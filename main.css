@@ -35,6 +35,15 @@ p {
     border-radius: 15px;
 }
 
+.btn:hover {
+    box-shadow: 4px 4px rgb(156, 151, 151);
+    transition: 0.8s;
+}
+
+.btn:active {
+    transform: translateY(15px);
+    }
+
 
 p#quote {
     font-size: 27px;
